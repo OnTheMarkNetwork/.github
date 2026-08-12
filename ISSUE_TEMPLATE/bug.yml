@@ -1,0 +1,36 @@
+name: Bug / Problem
+description: Report something that is broken, inconsistent, or producing an unexpected result.
+title: "[Bug]: "
+labels:
+  - type: bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is happening?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction / evidence
+      description: Steps, links, screenshots, or other useful evidence.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "priority: critical"
+        - "priority: high"
+        - "priority: medium"
+        - "priority: low"
+    validations:
+      required: true
