@@ -2,9 +2,9 @@
 
 **Building the foundation for what comes next.**
 
-OnTheMarkNetwork (OTMN) is an independent network and umbrella organization focused on connecting technology, creative work, communities, consulting, content, and collaboration.
+OnTheMarkNetwork (OTMN) is an independent network and umbrella organization bringing technology, creative work, communities, consulting, content, and collaboration together under one connected network.
 
-OTMN brings projects, people, ideas, and practical systems together under one network — with an emphasis on building useful things, documenting how they work, and creating a foundation that can grow over time.
+We build practical projects, document how they work, and create reusable systems that can support future communities, partnerships, and opportunities. The goal isn't simply to build more — it's to build a durable foundation for what comes next.
 
 ## What We're Building
 
