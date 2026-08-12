@@ -1,0 +1,43 @@
+name: Feature / Initiative
+description: Propose a meaningful new capability or initiative.
+title: "[Feature]: "
+labels:
+  - type: project
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What outcome should this work produce?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included and explicitly excluded?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be true for this issue to be complete?
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "priority: critical"
+        - "priority: high"
+        - "priority: medium"
+        - "priority: low"
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies / notes
+      description: Related issues, repositories, decisions, or blockers.
