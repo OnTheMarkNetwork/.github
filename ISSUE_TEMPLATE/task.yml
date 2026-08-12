@@ -1,0 +1,38 @@
+name: Task
+description: Track a defined piece of implementation work.
+title: "[Task]: "
+labels:
+  - type: foundation
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What specific result should this task produce?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Work required
+      description: List the practical work needed.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will completion be verified?
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "priority: critical"
+        - "priority: high"
+        - "priority: medium"
+        - "priority: low"
+    validations:
+      required: true

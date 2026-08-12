@@ -1,0 +1,38 @@
+name: Documentation / Standard
+description: Create or improve durable project documentation, guidance, or an OTMN standard.
+title: "[Docs]: "
+labels:
+  - type: documentation
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Why is this documentation needed?
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Required content
+      description: What should the document establish or explain?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be present for the documentation to be considered complete?
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "priority: critical"
+        - "priority: high"
+        - "priority: medium"
+        - "priority: low"
+    validations:
+      required: true
